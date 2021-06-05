@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #227093;
+    display: grid;
+    place-items: center;
+    /* place-content: center; */
+}
+
+.main_div {
+    width: 40vw;
+    height: 70vh;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    /* display: table; */
+    /* third step code to center text  */
+    /* display: grid;
+    place-content: center; */
+    display: grid;
+    place-items: center;
+}
+
+ /* first step code to center text  */
+
+ /* .main_div h1 {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     transform: translateY(-50%);
+ } */
+
+
+ /* Second step code to center text  */
+/*  
+.main_div h1 {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+} */
+
+
+
+/* 
+.main_div h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
